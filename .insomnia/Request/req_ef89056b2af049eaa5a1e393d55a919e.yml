@@ -1,0 +1,29 @@
+_id: req_ef89056b2af049eaa5a1e393d55a919e
+type: Request
+parentId: wrk_054762dcd4434459a301eab1a911953e
+modified: 1683265696450
+created: 1683265661146
+url: "{{ _.endpoint }}/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userName" : "rudi97278",
+    	"password" : "12345"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683265661146
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

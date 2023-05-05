@@ -1,0 +1,17 @@
+_id: env_05e44377d511480cba1e9536aa2d816d
+type: Environment
+parentId: env_9b22525a81b79099ae7dd65214bad8105725a5fe
+modified: 1683265730218
+created: 1683265325889
+name: Localhost
+data:
+  endpoint: http://localhost:3001
+  accessToken: "{% response 'body', 'req_ef89056b2af049eaa5a1e393d55a919e',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - endpoint
+    - accessToken
+color: null
+isPrivate: false
+metaSortKey: 1683265325889

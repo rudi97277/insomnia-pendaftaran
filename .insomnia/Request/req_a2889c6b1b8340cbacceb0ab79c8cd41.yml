@@ -1,0 +1,24 @@
+_id: req_a2889c6b1b8340cbacceb0ab79c8cd41
+type: Request
+parentId: fld_cea78a7f44f34693949a12d271ef6938
+modified: 1683265772497
+created: 1683265733073
+url: "{{ _.endpoint }}/user"
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.accessToken }}"
+  disabled: false
+metaSortKey: -1683265733073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

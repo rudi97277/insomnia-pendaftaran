@@ -1,0 +1,32 @@
+_id: req_b25edda925d540fe85b6cb0fe6f2f722
+type: Request
+parentId: wrk_054762dcd4434459a301eab1a911953e
+modified: 1683265657730
+created: 1683265282757
+url: "{{ _.endpoint }}/register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName" : "rudi",
+    	"lastName" : "anto",
+    	"userName" : "rudi97279",
+    	"password" : "12345",
+    	"dateOfBirth" : "2023-05-05"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683265282757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
